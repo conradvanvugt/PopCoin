@@ -22,7 +22,7 @@ Install curl
 sudo apt-get update
 sudo apt-get install curl
 ```
-Add following key
+Add following GPG key
 ```sh
 sudo curl -fsSL https://yum.dockerproject.org/gpg | sudo apt-key add -
 ```
