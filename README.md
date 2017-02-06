@@ -28,13 +28,13 @@ sudo curl -fsSL https://yum.dockerproject.org/gpg | sudo apt-key add -
 ```
 Download the desired docker engine from [https://apt.dockerproject.org/repo/pool/main/d/docker-engine/](https://apt.dockerproject.org/repo/pool/main/d/docker-engine/)
 ```sh
-sudo wget https://apt.dockerproject.org/repo/pool/main/d/docker-engine/<package>
+wget https://apt.dockerproject.org/repo/pool/main/d/docker-engine/<package>
 sudo apt-get update
 sudo dpkg -i <package>
 ```
 Following lines are an example for debian jessie on ARM processor architecture
 ```sh
-sudo wget https://apt.dockerproject.org/repo/pool/main/d/docker-engine/docker-engine_1.13.0-0~debian-jessie_amd64.deb  
+wget https://apt.dockerproject.org/repo/pool/main/d/docker-engine/docker-engine_1.13.0-0~debian-jessie_amd64.deb  
 sudo apt-get update
 sudo dpkg -i docker-engine_1.13.0-0~debian-jessie_amd64.deb 
 ```
