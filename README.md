@@ -32,7 +32,7 @@ sudo wget https://apt.dockerproject.org/repo/pool/main/d/docker-engine/<package>
 sudo apt-get update
 sudo dpkg -i <package>
 ```
-Following line would be an example for debian jessie on ARM processor architecture
+Following lines are an example for debian jessie on ARM processor architecture
 ```sh
 sudo wget https://apt.dockerproject.org/repo/pool/main/d/docker-engine/docker-engine_1.13.0-0~debian-jessie_amd64.deb  
 sudo apt-get update
